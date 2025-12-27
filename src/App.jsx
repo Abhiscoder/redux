@@ -1,8 +1,9 @@
-import React from 'react'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className="h-screen text-white w-full bg-gray-950">
+      
+    </div>
   )
 }
 
