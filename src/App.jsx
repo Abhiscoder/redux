@@ -1,6 +1,7 @@
 // import { fetchPhotos, fetchVideo } from "./api/mediaApi"
 
 import SearchBar from "./components/SearchBar"
+import Tab from "./components/Tab"
 
 const App = () => {
 
@@ -8,6 +9,7 @@ const App = () => {
     <div className="h-screen text-white w-full bg-gray-950">
 
       <SearchBar />
+      <Tab/>
 
 
 
