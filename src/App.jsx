@@ -1,17 +1,21 @@
 // import { fetchPhotos, fetchVideo } from "./api/mediaApi"
 
-import ResultGrid from "./components/ResultGrid"
-import SearchBar from "./components/SearchBar"
-import Tab from "./components/Tab"
+import { Route } from "react-router-dom"
+
+import HomePage from "./pages/HomePage"
+import CollectionPage from "./pages/CollectionPage"
 
 const App = () => {
 
   return (
     <div className=" text-white w-full bg-gray-950">
 
-      <SearchBar />
-      <Tab />
-      <ResultGrid />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/' element={<CollectionPage />} />
+      </Routes>
+
+
 
 
 
